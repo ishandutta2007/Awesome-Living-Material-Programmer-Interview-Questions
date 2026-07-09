@@ -1,15 +1,19 @@
-# Engineered Living Materials ("Living-Material Programmer") Interview Questions 🦠🧱
+<div align="center">
+  <img src="assets/banner.svg" alt="Engineered Living Materials Banner">
+</div>
 
-A curated, community-driven collection of interview questions (with model answers, frameworks, and explanations) for roles working on **Engineered Living Materials (ELM)** — materials that incorporate living cells to achieve properties like self-healing, growth, and environmental responsiveness that purely inert materials can't easily replicate.
+# 🦠 Engineered Living Materials ("Living-Material Programmer") Interview Questions 🧱
 
-> 📝 **A note on the title:** "Living-Material Programmer" isn't a standardized industry job title. This repo builds around the real, active research field this title most plausibly points to — **Engineered Living Materials**, sitting at the intersection of synthetic biology and materials science. Titles you're more likely to actually see for this work include "Living Materials Scientist," "Synthetic Biology Materials Engineer," or "Biofabrication Engineer."
+A curated, community-driven collection of interview questions (with model answers, frameworks, and explanations) for roles working on **Engineered Living Materials (ELM)** — materials that incorporate living cells to achieve properties like self-healing, growth, and environmental responsiveness that purely inert materials can't easily replicate. ✨
+
+> 📝 **A note on the title:** "Living-Material Programmer" isn't a standardized industry job title. This repo builds around the real, active research field this title most plausibly points to — **Engineered Living Materials**, sitting at the intersection of synthetic biology and materials science. 🔬 Titles you're more likely to actually see for this work include "Living Materials Scientist," "Synthetic Biology Materials Engineer," or "Biofabrication Engineer." 🧫
 
 This is not a list of trivia. Every question includes:
-- **Why interviewers ask it**
-- **A model answer or framework**
-- **Follow-up questions** interviewers commonly use to probe deeper
+- 💡 **Why interviewers ask it**
+- 🛠️ **A model answer or framework**
+- 🔍 **Follow-up questions** interviewers commonly use to probe deeper
 
-> 🌱 This is v1. Contributions, corrections, and new questions are very welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+> 🌱 This is v1. Contributions, corrections, and new questions are very welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). 🤝
 
 > ⚠️ **Note on scope:** This is a young, fast-moving field still largely at the lab/demonstration stage rather than widespread commercial deployment — answers throughout this repo reflect that honestly rather than overstating current technology readiness. This repo builds directly on foundations covered in the companion **Synthetic Biology Designer** repo (genetic circuit design, DBTL cycle, biosafety) and the **Biomimetic Structural Engineer** repo (structural mechanics, materials characterization) — read those first if the fundamentals there are unfamiliar. Containment/biosafety content in this repo stays at the conceptual and policy level throughout, consistent with the Synthetic Biology Designer companion repo's approach.
 
@@ -32,16 +36,16 @@ Also see: [resources.md](resources.md) for external reading, key papers, and com
 
 ---
 
-## 🧭 How to Use This Repo
+## 🧭 How to Use This Repo 🚀
 
-- **Coming from a synthetic biology background?** Prioritize sections 3, 4, and 6 — the goal is building fluency in the materials-science side: how cells physically integrate into a non-living matrix and how you'd characterize the resulting hybrid material.
-- **Coming from a materials science/mechanical engineering background?** Prioritize sections 2 and 5 — you'll need working fluency in genetic circuit design and the practical challenges of keeping engineered cells alive and functional outside standard lab culture conditions.
-- **Interviewing at a lab/company focused on construction materials (e.g., self-healing concrete)?** Focus heavily on sections 4 and 6.
-- **Interviewing at a lab/company focused on biofabrication or bioprinting?** Focus heavily on section 3.
-- **Interviewing for a role touching environmental deployment (e.g., outdoor building materials, soil-based applications)?** Focus heavily on section 7.
+- 🧬 **Coming from a synthetic biology background?** Prioritize sections 3, 4, and 6 — the goal is building fluency in the materials-science side: how cells physically integrate into a non-living matrix and how you'd characterize the resulting hybrid material.
+- ⚙️ **Coming from a materials science/mechanical engineering background?** Prioritize sections 2 and 5 — you'll need working fluency in genetic circuit design and the practical challenges of keeping engineered cells alive and functional outside standard lab culture conditions.
+- 🏗️ **Interviewing at a lab/company focused on construction materials (e.g., self-healing concrete)?** Focus heavily on sections 4 and 6.
+- 🖨️ **Interviewing at a lab/company focused on biofabrication or bioprinting?** Focus heavily on section 3.
+- 🌍 **Interviewing for a role touching environmental deployment (e.g., outdoor building materials, soil-based applications)?** Focus heavily on section 7.
 
 Each question is tagged with a rough difficulty and role-level indicator:
-- 🟢 Junior/Associate · 🟡 Mid-level Scientist/Engineer · 🔴 Senior/Principal
+- 🟢 **Junior/Associate** · 🟡 **Mid-level Scientist/Engineer** · 🔴 **Senior/Principal**
 
 ---
 

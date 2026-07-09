@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      .hex { fill: none; stroke: #34d399; stroke-width: 2; opacity: 0.3; }
+      .hex:nth-child(2n) { animation: pulse 3s infinite alternate; }
+      .hex:nth-child(3n) { animation: pulse 4s infinite alternate-reverse; }
+      @keyframes pulse {
+        0% { opacity: 0.1; stroke-width: 1; }
+        100% { opacity: 0.8; stroke-width: 3; }
+      }
+      .node { fill: #10b981; }
+      .line { stroke: #10b981; stroke-width: 1; opacity: 0.4; }
+      .title { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 800; font-size: 36px; fill: #f8fafc; }
+      .subtitle { font-family: 'Segoe UI', system-ui, sans-serif; font-weight: 400; font-size: 18px; fill: #94a3b8; }
+      .floating { animation: float 6s ease-in-out infinite; }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+    </style>
+  </defs>
+  
+  <rect width="800" height="200" fill="url(#bg)" />
+  
+  <g class="floating">
+    <!-- Left hexagons -->
+    <path class="hex" d="M100 50 L125 35 L150 50 L150 80 L125 95 L100 80 Z" />
+    <path class="hex" d="M150 80 L175 65 L200 80 L200 110 L175 125 L150 110 Z" />
+    <path class="hex" d="M200 50 L225 35 L250 50 L250 80 L225 95 L200 80 Z" />
+    <path class="hex" d="M100 110 L125 95 L150 110 L150 140 L125 155 L100 140 Z" />
+    <!-- Right hexagons -->
+    <path class="hex" d="M600 70 L625 55 L650 70 L650 100 L625 115 L600 100 Z" />
+    <path class="hex" d="M650 100 L675 85 L700 100 L700 130 L675 145 L650 130 Z" />
+    <path class="hex" d="M700 70 L725 55 L750 70 L750 100 L725 115 L700 100 Z" />
+  </g>
+  
+  <g>
+    <!-- Connecting lines -->
+    <line x1="125" y1="65" x2="175" y2="95" class="line" />
+    <line x1="175" y1="95" x2="225" y2="65" class="line" />
+    <line x1="625" y1="85" x2="675" y2="115" class="line" />
+    <line x1="675" y1="115" x2="725" y2="85" class="line" />
+  </g>
+  
+  <circle cx="400" cy="100" r="150" fill="url(#glow)" opacity="0.5" />
+  
+  <text x="400" y="95" text-anchor="middle" class="title">Engineered Living Materials</text>
+  <text x="400" y="130" text-anchor="middle" class="subtitle">Interview Questions &amp; Mastery</text>
+</svg>
