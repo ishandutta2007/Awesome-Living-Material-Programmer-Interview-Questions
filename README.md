@@ -4,6 +4,12 @@
 
 # 🦠 Engineered Living Materials ("Living-Material Programmer") Interview Questions 🧱
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+</p>
+
+**Comprehensive interview preparation guide for Engineered Living Materials (ELM). Master questions on synthetic biology, biofabrication, self-healing materials, and genetic programming for your next bioengineering role.**
+
 A curated, community-driven collection of interview questions (with model answers, frameworks, and explanations) for roles working on **Engineered Living Materials (ELM)** — materials that incorporate living cells to achieve properties like self-healing, growth, and environmental responsiveness that purely inert materials can't easily replicate. ✨
 
 > 📝 **A note on the title:** "Living-Material Programmer" isn't a standardized industry job title. This repo builds around the real, active research field this title most plausibly points to — **Engineered Living Materials**, sitting at the intersection of synthetic biology and materials science. 🔬 Titles you're more likely to actually see for this work include "Living Materials Scientist," "Synthetic Biology Materials Engineer," or "Biofabrication Engineer." 🧫
